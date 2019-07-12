@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		218B2B6022D8B4BC001412A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 218B2B5F22D8B4BC001412A8 /* main.cpp */; };
+		218B2B6022D8B4BC001412A8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 218B2B5F22D8B4BC001412A8 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		218B2B5C22D8B4BC001412A8 /* BrackJack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BrackJack; sourceTree = BUILT_PRODUCTS_DIR; };
-		218B2B5F22D8B4BC001412A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		218B2B5F22D8B4BC001412A8 /* main.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		218B2B5E22D8B4BC001412A8 /* BrackJack */ = {
 			isa = PBXGroup;
 			children = (
-				218B2B5F22D8B4BC001412A8 /* main.cpp */,
+				218B2B5F22D8B4BC001412A8 /* main.c */,
 			);
 			path = BrackJack;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				218B2B6022D8B4BC001412A8 /* main.cpp in Sources */,
+				218B2B6022D8B4BC001412A8 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
